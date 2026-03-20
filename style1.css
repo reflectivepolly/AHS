@@ -49,7 +49,7 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: clamp(0.3rem, 0.4vw, 1rem) clamp(1rem, 5vw, 3rem);
-  background: #a50b0bf1;
+  background: #8f0102;
 }
 
 header .logo {
@@ -73,7 +73,7 @@ nav a:first-child {
 
 .main-nav-list .btn {
   color: #fff;
-  background: #0a2540;
+  background: #090505;
   padding: 0.5rem 1rem;
   border-radius: 5px;
 }
@@ -216,7 +216,7 @@ body.no-scroll {
   font-weight: bold;
   -webkit-text-stroke: 1.3px #000;
   margin-top: 1rem;
-  color: #0a2540;
+  color: #ffffff;
 }
 
 .hero .cta {
@@ -238,7 +238,7 @@ body.no-scroll {
   justify-content: center;
   padding: 10rem clamp(1rem, 10vw, 10rem) clamp(6rem, 15vw, 25rem)
     clamp(1rem, 10vw, 10rem);
-  background: linear-gradient(to bottom, #03111d 0%, #03111d 50%, #000000 100%);
+  background: linear-gradient(to bottom, #090505 0%, #450202 60%, #000000 100%);
 }
 
 .about h2 {
@@ -532,7 +532,7 @@ body.no-scroll {
   width: 100%;
   padding: 0 1.5rem;
   box-sizing: border-box;
-  background: #0d223a;
+  background: #090505;
   border-radius: 0 0 8px 8px;
 }
 
@@ -556,7 +556,7 @@ body.no-scroll {
   text-align: left;
   padding: clamp(1rem, 1.8vw, 2.2rem);
   font-weight: bold;
-  background: #081b2e;
+  background: #090505;
   color: #fff;
   border: none;
   border-radius: 8px;
@@ -574,7 +574,7 @@ body.no-scroll {
 }
 
 .faq-btn:hover {
-  background: #061b30;
+  background: #0a0101;
 }
 
 @media (max-width: 500px) {
@@ -587,7 +587,7 @@ body.no-scroll {
 /* TBA PAGE */
 .tba {
   flex: 1;
-  background: linear-gradient(to bottom, #870203, #b10304);
+  background: linear-gradient(to bottom, #700102, #b10304);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -616,8 +616,9 @@ body.no-scroll {
 .tracks {
   padding: 3rem 2rem 5rem 2rem;
   text-align: center;
-  background: #870203;
-  min-height: calc(100vh - 10rem);  display: block;
+  background: linear-gradient(to bottom, #700102, #b10304);
+  min-height: calc(100vh - 10rem);
+  display: block;
   flex-direction: column;
   justify-content: flex-start;
   padding-top: clamp(4rem, 10vh, 10rem);
@@ -650,15 +651,13 @@ body.no-scroll {
   font-size: clamp(0.5rem, 5vw, 1.6rem);
 }
 
-
 .track-grid {
   display: flex;
   flex-wrap: wrap;
   gap: 3rem;
-  justify-content: center; 
-  padding: 0 clamp(2rem, 5vw, 10rem); 
+  justify-content: center;
+  padding: 0 clamp(2rem, 5vw, 10rem);
 }
-
 
 .track-card {
   flex: 1 1 22rem;
@@ -666,7 +665,7 @@ body.no-scroll {
   /* min-width: 0; */
   /* max-width: 50rem; */
   /* padding: 2rem 2rem 4rem; */
-  min-height: 25vw; 
+  min-height: 25vw;
   /* display: flex;
   flex-direction: column; */
   /* 2. Simplified static padding */
@@ -674,14 +673,13 @@ body.no-scroll {
   border-radius: 10px;
   text-align: left;
   color: #ffffff;
-  
 }
 
 @media (max-width: 350px) {
   .track-card {
     padding: 1.2rem; /* Reduce padding so the box can get skinnier */
   }
-  
+
   .tracks h2 {
     font-size: 2.5rem; /* Ensure the title doesn't overflow */
   }
@@ -701,16 +699,17 @@ body.no-scroll {
 /* Color variations */
 .track-card.red {
   background: #6e0303;
-  color: #fff3f3;
+  color: #efba1b;
 }
 
 .track-card.yellow {
-  background: #efba1b;
-  color: #241e11;
+  background: #090505;
+  color: #e5e5e5;
 }
 
 .track-card.blue {
-  background: #0a2540;
+  background: #efba1b;
+  color: #090505;
 }
 
 /* .track-card.white {
@@ -801,17 +800,17 @@ body.no-scroll {
 }
 
 .form button {
-  background: #0a2540;
+  background: #090505;
   cursor: pointer;
 }
 
 .form button:hover {
-  background: #061b30;
+  background: #090505;
 }
 
 /* FOOTER */
 .footer {
-  background-color: #071829;
+  background-color: #090505;
 }
 
 .logos-container {
