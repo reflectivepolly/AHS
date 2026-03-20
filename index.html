@@ -434,6 +434,19 @@
           item.classList.toggle("active");
         });
       });
+
+      // Close mobile nav when a link is clicked
+      const allLinks = document.querySelectorAll(".main-nav-list a");
+
+      allLinks.forEach((link) => {
+        link.addEventListener("click", function () {
+          // Check if the nav is actually open before trying to close it
+          if (header.classList.contains("nav-open")) {
+            header.classList.remove("nav-open");
+            document.body.classList.remove("no-scroll");
+          }
+        });
+      });
     </script>
   </body>
 </html>
