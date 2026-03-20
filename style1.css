@@ -169,7 +169,7 @@ body.no-scroll {
   padding: 0rem 2rem clamp(6rem, 15vw, 25rem) clamp(2rem, 10vw, 7rem);
 
   background:
-    linear-gradient(rgba(135, 2, 2, 0.637), rgba(0, 0, 0, 0.822)),
+    linear-gradient(rgba(135, 2, 2, 0.637), rgba(0, 0, 0, 0.865)),
     url("firebirdmascot.png") no-repeat center center;
   background-size: cover;
   text-align: left;
@@ -238,7 +238,7 @@ body.no-scroll {
   justify-content: center;
   padding: 10rem clamp(1rem, 10vw, 10rem) clamp(6rem, 15vw, 25rem)
     clamp(1rem, 10vw, 10rem);
-  background: linear-gradient(to bottom, #090505 0%, #450202 60%, #000000 100%);
+  background: linear-gradient(to bottom, #020407 0%, #450202 60%, #000000 100%);
 }
 
 .about h2 {
@@ -617,7 +617,7 @@ body.no-scroll {
   padding: 3rem 2rem 5rem 2rem;
   text-align: center;
   background: linear-gradient(to bottom, #700102, #b10304);
-  min-height: calc(100vh - 10rem);
+    min-height: calc(100vh - 10rem);
   display: block;
   flex-direction: column;
   justify-content: flex-start;
@@ -731,9 +731,8 @@ body.no-scroll {
   color: #fff;
 
   background-image: url("hackathon-bg.png");
-  background-repeat: no-repeat;
-  background-position: 123% center;
-  background-size: auto 100%;
+  /* background-repeat: no-repeat;
+  background-size: auto 100%; */
   background-color: #870203;
 }
 
@@ -810,7 +809,7 @@ body.no-scroll {
 
 /* FOOTER */
 .footer {
-  background-color: #090505;
+  background-color: #000000;
 }
 
 .logos-container {
