@@ -172,7 +172,7 @@ body.no-scroll {
   justify-content: flex-start;
   align-items: flex-start;
   min-height: 100vh;
-  padding: clamp(3rem, 5vw, 6rem) 2rem clamp(4rem, 8vw, 14rem) clamp(2rem, 8vw, 7rem);
+  padding: 0rem 2rem clamp(4rem, 8vw, 14rem) clamp(2rem, 8vw, 7rem);
 
   background:
     linear-gradient(rgba(135, 2, 2, 0.637), rgba(0, 0, 0, 0.865)),
