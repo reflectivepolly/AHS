@@ -156,6 +156,10 @@ nav a:first-child {
   .nav-open .icon-mobile-nav[name="close-outline"] {
     display: block;
   }
+
+  .hero-content {
+    max-width: 90vw;
+  }
 }
 
 /* Prevents scrolling when applied to the body */
@@ -182,9 +186,9 @@ body.no-scroll {
   color: #fff;
 }
 
-/* CHANGED: margin-bottom was 15rem (240px fixed) — pushed content unpredictably */
+/* CHANGED: max-width now scales with viewport so text wraps proportionally on all screens */
 .hero-content {
-  max-width: 87.5rem;
+  max-width: 50vw;
   margin-bottom: 0;
 }
 
