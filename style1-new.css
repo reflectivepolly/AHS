@@ -255,7 +255,7 @@ body.no-scroll {
 .about h2 {
   text-align: center;
   margin-bottom: 5rem;
-  font-size: clamp(1rem, 4.2vw, 10rem);
+  font-size: clamp(1rem, 4.2vw, 5rem);
   -webkit-text-stroke: 1.3px #000;
 }
 
@@ -275,7 +275,7 @@ body.no-scroll {
 }
 
 .about-text p {
-  font-size: clamp(1rem, 1.4vw, 3rem);
+  font-size: clamp(1rem, 1.4vw, 1.7rem);
   line-height: 2;
   max-width: 106.25rem;
   margin-bottom: 2.5rem;
@@ -311,7 +311,7 @@ body.no-scroll {
 }
 
 .sponsorsp {
-  font-size: clamp(1.5rem, 6.7vw, 15rem);
+  font-size: clamp(1.5rem, 6.7vw, 8rem);
   color: #efba1b;
   margin-bottom: 1.5rem;
   font-family: "Jaro";
@@ -321,7 +321,7 @@ body.no-scroll {
 }
 
 .sponsors h6 {
-  font-size: clamp(1rem, 2.5vw, 6rem);
+  font-size: clamp(1rem, 2.5vw, 3rem);
   margin-bottom: 2rem;
   font-family: "Jaro";
   -webkit-text-stroke: clamp(0.05rem, 0.1vw, 0.15rem) black;
@@ -515,8 +515,8 @@ body.no-scroll {
 
 .faq h2 {
   text-align: center;
-  margin-bottom: clamp(1rem, 5.8vw, 10rem);
-  font-size: clamp(1rem, 2.9vw, 10rem);
+  margin-bottom: clamp(1rem, 5.8vw, 7rem);
+  font-size: clamp(1rem, 2.9vw, 3.5rem);
   -webkit-text-stroke: #000 1.5px;
 }
 
@@ -573,7 +573,7 @@ body.no-scroll {
   border: none;
   border-radius: 8px;
   cursor: pointer;
-  font-size: clamp(1rem, 1.25vw, 3rem);
+  font-size: clamp(1rem, 1.25vw, 1.5rem);
   transition: background 0.2s ease;
 }
 
@@ -618,7 +618,7 @@ body.no-scroll {
 }
 
 .tba p {
-  font-size: clamp(1rem, 1.7vw, 4rem);
+  font-size: clamp(1rem, 1.7vw, 2rem);
   font-weight: bold;
   opacity: 0.9;
   font-style: italic;
@@ -637,7 +637,7 @@ body.no-scroll {
 }
 
 .tracks h2 {
-  font-size: clamp(1rem, 4.2vw, 10rem);
+  font-size: clamp(1rem, 4.2vw, 5rem);
   color: #efba1b;
   margin-bottom: 0.5rem;
   font-family: "Jaro";
@@ -646,7 +646,7 @@ body.no-scroll {
 
 .tracks h3 {
   margin-bottom: clamp(2rem, 3rem, 5rem);
-  font-size: clamp(1rem, 2.1vw, 5rem);
+  font-size: clamp(1rem, 2.1vw, 2.5rem);
   color: #fff;
   font-family: "Jaro";
   -webkit-text-stroke: 0.8px black;
@@ -654,13 +654,13 @@ body.no-scroll {
 
 .tracks h4 {
   margin-bottom: 1rem;
-  font-size: clamp(1rem, 1.7vw, 4rem);
+  font-size: clamp(1rem, 1.7vw, 2rem);
 }
 
 .tracks p {
   margin-bottom: 2rem;
   font-weight: bold;
-  font-size: clamp(0.9rem, 1.35vw, 3rem);
+  font-size: clamp(0.9rem, 1.35vw, 1.6rem);
 }
 
 .track-grid {
@@ -705,7 +705,7 @@ body.no-scroll {
   display: block;
   margin-top: 1rem;
   font-weight: bold;
-  font-size: clamp(0.9rem, 1.5vw, 3rem);
+  font-size: clamp(0.9rem, 1.5vw, 1.8rem);
 }
 
 /* Color variations */
