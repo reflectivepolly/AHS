@@ -241,22 +241,21 @@ body.no-scroll {
 }
 
 /* ABOUT */
-/* CHANGED: bottom padding was clamp(6rem, 15vw, 25rem) — enormous on all screens */
 .about {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  padding: 10rem clamp(1rem, 8vw, 8rem) clamp(4rem, 8vw, 10rem)
-    clamp(1rem, 8vw, 8rem);
+  padding: 10rem clamp(1rem, 10vw, 10rem) clamp(6rem, 15vw, 25rem)
+    clamp(1rem, 10vw, 10rem);
   background: linear-gradient(to bottom, #020407 0%, #450202 60%, #000000 100%);
 }
 
-/* CHANGED: was clamp(1rem, 11vw, 5rem) — 11vw too aggressive */
+/* CHANGED: was clamp(1rem, 11vw, 5rem) — nudged down a pinch */
 .about h2 {
   text-align: center;
   margin-bottom: 5rem;
-  font-size: clamp(1rem, 5vw, 4rem);
+  font-size: clamp(1rem, 9vw, 5rem);
   -webkit-text-stroke: 1.3px #000;
 }
 
@@ -311,9 +310,9 @@ body.no-scroll {
   z-index: 1;
 }
 
-/* CHANGED: was clamp(1.5rem, 16vw, 8rem) — 16vw is enormous */
+/* CHANGED: was clamp(1.5rem, 16vw, 8rem) — nudged down a pinch */
 .sponsorsp {
-  font-size: clamp(1.5rem, 8vw, 7rem);
+  font-size: clamp(1.5rem, 14vw, 8rem);
   color: #efba1b;
   margin-bottom: 1.5rem;
   font-family: "Jaro";
@@ -515,11 +514,11 @@ body.no-scroll {
   padding: 7rem 2rem 12rem;
 }
 
-/* CHANGED: margin-bottom was clamp(1rem, 13vw, 7rem) and font-size clamp(1rem, 10vw, 3.5rem) — both too large on mid screens */
+/* CHANGED: was clamp(1rem, 10vw, 3.5rem) / clamp(1rem, 13vw, 7rem) — nudged down a pinch */
 .faq h2 {
   text-align: center;
-  margin-bottom: clamp(1rem, 6vw, 5rem);
-  font-size: clamp(1rem, 5vw, 3.5rem);
+  margin-bottom: clamp(1rem, 11vw, 7rem);
+  font-size: clamp(1rem, 9vw, 3.5rem);
   -webkit-text-stroke: #000 1.5px;
 }
 
