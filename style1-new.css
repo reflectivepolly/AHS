@@ -114,6 +114,27 @@ nav a:first-child {
   align-items: center;
 }
 
+/* -------- LAPTOP / MEDIUM SCREEN -------- */
+/* Scales hero text down so it doesn't fill the screen on shorter/narrower screens */
+@media (min-width: 1025px) and (max-width: 1750px) {
+  .herop {
+    font-size: clamp(3rem, 7vw, 6.5rem);
+  }
+
+  .hero h6 {
+    font-size: clamp(1rem, 2.5vw, 2rem);
+  }
+
+  .hero h3 {
+    font-size: clamp(1.2rem, 2.5vw, 2rem);
+  }
+
+  .hero .cta {
+    font-size: clamp(0.9rem, 1.5vw, 1.2rem);
+    margin-top: clamp(1rem, 2.5vw, 2rem);
+  }
+}
+
 /* -------- MOBILE MODE -------- */
 @media (max-width: 1024px) {
   .sponsors {
