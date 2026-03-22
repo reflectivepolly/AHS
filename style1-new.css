@@ -913,6 +913,6 @@ body.no-scroll {
   }
 
   .main-nav-list a {
-    font-size: clamp(1rem, 3.5vw, 1.6rem);
+    font-size: clamp(1.3rem, 5vw, 2rem);
   }
 }
