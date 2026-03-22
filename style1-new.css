@@ -889,52 +889,52 @@ body.no-scroll {
   }
 
   .about h2 {
-    font-size: clamp(2rem, 9vw, 4rem);
+    font-size: clamp(2.5rem, 11vw, 5rem);
   }
 
   .sponsorsp {
-    font-size: clamp(2.5rem, 14vw, 5rem);
+    font-size: clamp(3rem, 16vw, 6rem);
   }
 
   .faq h2 {
-    font-size: clamp(2rem, 9vw, 4rem);
+    font-size: clamp(2.5rem, 11vw, 5rem);
   }
 
   .tracks h2 {
-    font-size: clamp(2rem, 9vw, 4rem);
+    font-size: clamp(2.5rem, 11vw, 5rem);
   }
 
   .tracks h3 {
-    font-size: clamp(1.2rem, 5vw, 2rem);
+    font-size: clamp(1.2rem, 6.5vw, 2.5rem);
   }
 
   .sponsors h6 {
-    font-size: clamp(1rem, 6.5vw, 2rem);
+    font-size: clamp(1rem, 7.5vw, 2.5rem);
   }
 
   .about-text p {
-    font-size: clamp(1rem, 4vw, 1.6rem);
+    font-size: clamp(1rem, 5vw, 2rem);
   }
 
   .faq-btn {
-    font-size: clamp(1rem, 4vw, 1.6rem);
+    font-size: clamp(1rem, 5vw, 2rem);
     padding: clamp(0.8rem, 3vw, 1.5rem);
   }
 
   .faq-answer p {
-    font-size: clamp(0.9rem, 3.5vw, 1.4rem);
+    font-size: clamp(0.9rem, 4.5vw, 1.8rem);
   }
 
   .tracks h4 {
-    font-size: clamp(1rem, 5vw, 1.8rem);
+    font-size: clamp(1rem, 6vw, 2.2rem);
   }
 
   .tracks p {
-    font-size: clamp(0.9rem, 3.8vw, 1.5rem);
+    font-size: clamp(0.9rem, 4.8vw, 1.9rem);
   }
 
   .track-card span {
-    font-size: clamp(0.9rem, 4vw, 1.6rem);
+    font-size: clamp(0.9rem, 5vw, 2rem);
   }
 
   .main-nav-list a {
