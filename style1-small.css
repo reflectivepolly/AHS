@@ -937,6 +937,10 @@ body.no-scroll {
     font-size: clamp(0.9rem, 3vw, 1.4rem);
   }
 
+  .track-grid {
+    padding: 0;
+  }
+
   .main-nav-list a {
     font-size: clamp(1.3rem, 5vw, 2rem);
   }
