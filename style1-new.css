@@ -893,7 +893,7 @@ body.no-scroll {
   }
 
   .sponsorsp {
-    font-size: clamp(2.5rem, 12vw, 5rem);
+    font-size: clamp(2.5rem, 13vw, 5rem);
   }
 
   .faq h2 {
@@ -909,7 +909,7 @@ body.no-scroll {
   }
 
   .sponsors h6 {
-    font-size: clamp(1rem, 5vw, 2rem);
+    font-size: clamp(1rem, 6.5vw, 2rem);
   }
 
   .main-nav-list a {
