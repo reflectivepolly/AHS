@@ -157,12 +157,20 @@ nav a:first-child {
     display: block;
   }
 
+  .hero {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+  }
+
   .hero-content {
-    max-width: 90vw;
+    width: 100%;
+    max-width: 100%;
   }
 
   .herop {
-    font-size: clamp(3rem, 14vw, 6rem);
+    font-size: clamp(3rem, 16vw, 6rem);
   }
 
   .hero h6 {
