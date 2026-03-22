@@ -889,7 +889,7 @@ body.no-scroll {
   }
 
   .about h2 {
-    font-size: clamp(2rem, 7vw, 3.5rem);
+    font-size: clamp(2rem, 7.5vw, 3.5rem);
   }
 
   .sponsorsp {
@@ -901,11 +901,11 @@ body.no-scroll {
   }
 
   .tracks h2 {
-    font-size: clamp(2rem, 9vw, 4rem);
+    font-size: clamp(2rem, 8.9vw, 4rem);
   }
 
   .tracks h3 {
-    font-size: clamp(1rem, 5.5vw, 2.2rem);
+    font-size: clamp(1rem, 5.3vw, 2.2rem);
   }
 
   .sponsors h6 {
@@ -913,7 +913,7 @@ body.no-scroll {
   }
 
   .about-text p {
-    font-size: clamp(0.95rem, 3vw, 1.4rem);
+    font-size: clamp(1rem, 3vw, 1.4rem);
   }
 
   .faq-btn {
