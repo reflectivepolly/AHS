@@ -909,7 +909,7 @@ body.no-scroll {
   }
 
   .sponsors h6 {
-    font-size: clamp(1rem, 7vw, 2rem);
+    font-size: clamp(1rem, 6.5vw, 2rem);
   }
 
   .main-nav-list a {
