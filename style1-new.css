@@ -902,4 +902,16 @@ body.no-scroll {
   .tracks h2 {
     font-size: clamp(2rem, 9vw, 4rem);
   }
+
+  .tracks h3 {
+    font-size: clamp(1.2rem, 5vw, 2rem);
+  }
+
+  .sponsors h6 {
+    font-size: clamp(1rem, 5vw, 2rem);
+  }
+
+  .main-nav-list a {
+    font-size: clamp(1.5rem, 6vw, 2.5rem);
+  }
 }
