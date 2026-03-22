@@ -926,15 +926,15 @@ body.no-scroll {
   }
 
   .tracks h4 {
-    font-size: clamp(1rem, 3.5vw, 1.6rem);
+    font-size: clamp(1rem, 5vw, 2rem);
   }
 
   .tracks p {
-    font-size: clamp(0.9rem, 3vw, 1.4rem);
+    font-size: clamp(0.9rem, 4vw, 1.7rem);
   }
 
   .track-card span {
-    font-size: clamp(0.9rem, 3vw, 1.4rem);
+    font-size: clamp(0.9rem, 4vw, 1.7rem);
   }
 
   .track-grid {
