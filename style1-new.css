@@ -273,7 +273,7 @@ body.no-scroll {
 }
 
 .about-text p {
-  font-size: clamp(1rem, 1.4vw, 1.7rem);
+  font-size: clamp(1.1rem, 1.4vw, 1.7rem);
   line-height: 2;
   max-width: 106.25rem;
   margin-bottom: 2.5rem;
