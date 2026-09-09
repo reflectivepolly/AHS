@@ -38,7 +38,7 @@ The sponsor grid (`index.html`) currently shows two confirmed sponsors (Taylor B
 
 ## Schedule Page (`tba.html`)
 
-Styled as a red-and-white notepad: a red header band for date/status notes, a white ruled body (internal scroll via `.schedule-body`, capped at `60vh` so the page itself doesn't grow long) with a gold margin rule, handwriting-style (`Caveat` font) times, and dashed dividers between entries — no boxed cards/dots. Event times reflect the 2027 judge/volunteer packet run-of-show (confirmed current over the older 2026 proposal doc, which has slightly different times for team registration and the hard submission deadline).
+Styled as a red-and-white notepad with rounded corners: a red header band for date/status notes, a white ruled body (internal scroll via `.schedule-body`, capped at `60vh` so the page itself doesn't grow long) with a gold margin rule, `Jaro`-font times matching the event titles, and dashed dividers between entries — no boxed cards/dots. Event times reflect the 2027 judge/volunteer packet run-of-show (confirmed current over the older 2026 proposal doc, which has slightly different times for team registration and the hard submission deadline).
 
 ## Known Issues / Placeholders
 

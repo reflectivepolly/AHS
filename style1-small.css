@@ -501,8 +501,8 @@ body.no-scroll {
   .phoenix .logo-box,
   .ember .logo-box,
   .spark .logo-box {
-    width: 25rem;
-    height: 15rem;
+    width: clamp(12rem, 60vw, 18rem);
+    height: clamp(7rem, 35vw, 11rem);
   }
 }
 
@@ -629,7 +629,7 @@ body.no-scroll {
   margin: 2.5rem auto 0;
   text-align: left;
   background: #fff;
-  border-radius: 8px;
+  border-radius: 24px;
   overflow: hidden;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
 }
@@ -702,9 +702,8 @@ body.no-scroll {
 .schedule-time {
   text-align: right;
   color: #8f0102;
-  font-family: "Caveat", cursive;
-  font-weight: 600;
-  font-size: clamp(1.6rem, 2.8vw, 2.1rem);
+  font-family: "Jaro";
+  font-size: clamp(1.4rem, 2.3vw, 1.7rem);
   line-height: 1.15;
   padding-top: 0.2rem;
   white-space: nowrap;
