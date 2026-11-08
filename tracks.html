@@ -3,15 +3,26 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Arcadia Hackathon</title>
-    <link rel="stylesheet" href="style1-small.css" />
-
-    <link
-      href="https://fonts.googleapis.com/css?family=Jaro"
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-      rel="stylesheet"
+    <title>Tracks | Firebird Hacks 2027</title>
+    <meta
+      name="description"
+      content="The three Firebird Hacks 2027 tracks: Aerospace, Community & Health, and Cybersecurity. Saturday, March 20, 2027 at Arcadia High School, Oak Hall, VA."
     />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Tracks | Firebird Hacks 2027" />
+    <meta
+      property="og:description"
+      content="Aerospace, Community & Health, and Cybersecurity: pick a track and build something for the Eastern Shore."
+    />
+    <meta property="og:url" content="https://phoenixbot.org/hackathon/tracks.html" />
+    <meta
+      property="og:image"
+      content="https://phoenixbot.org/hackathon/websitelogo.png"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="stylesheet" href="style1-small.css?v=20261108k" />
+
+    <link href="https://fonts.googleapis.com/css?family=Jaro" rel="stylesheet" />
     <script
       type="module"
       src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
@@ -48,7 +59,7 @@
     <section class="tracks general">
       <h2>General Tracks</h2>
       <h3>
-        Prizes will be revealed during the open ceremony of Firebird Hacks!
+        Pick a track and build something for the Shore!
       </h3>
 
       <div class="track-grid">
@@ -61,7 +72,6 @@
             control dashboard, show us how your code can help explore the final
             frontier and innovate for the next generation of space travel.
           </p>
-          <span>Prize: TBA</span>
         </div>
 
         <div class="track-card yellow">
@@ -74,7 +84,6 @@
             for projects that put people first and make the Shore a better place
             to live.
           </p>
-          <span>Prize: TBA</span>
         </div>
 
         <div class="track-card blue">
@@ -86,8 +95,32 @@
             that drive our region, show us how you can keep our home safe,
             secure, and strong against modern threats.
           </p>
-          <span>Prize: TBA</span>
         </div>
+      </div>
+
+      <!-- PRIZES BANNER -->
+      <div class="prize-banner">
+        <h4>Prizes</h4>
+        <div class="prize-row">
+          <div class="prize">
+            <p class="prize-place">1st Place</p>
+            <p class="prize-amount">$50</p>
+          </div>
+          <div class="prize">
+            <p class="prize-place">2nd Place</p>
+            <p class="prize-amount">$35</p>
+          </div>
+          <div class="prize">
+            <p class="prize-place">3rd Place</p>
+            <p class="prize-amount">$25</p>
+          </div>
+        </div>
+        <p class="prize-note">
+          All three tracks have the same prizes. The top three teams in each
+          track win, and every member of a winning team gets their own prize.
+          For example, if your team of four places first, each of you
+          takes&nbsp;home&nbsp;$50.
+        </p>
       </div>
     </section>
 
@@ -124,9 +157,20 @@
 
       btnNav.addEventListener("click", function () {
         header.classList.toggle("nav-open");
+        document.body.classList.toggle("no-scroll");
       });
 
-      // Mobile navigation toggle
+      // Close mobile nav when a link is clicked
+      const allLinks = document.querySelectorAll(".main-nav-list a");
+
+      allLinks.forEach((link) => {
+        link.addEventListener("click", function () {
+          if (header.classList.contains("nav-open")) {
+            header.classList.remove("nav-open");
+            document.body.classList.remove("no-scroll");
+          }
+        });
+      });
     </script>
   </body>
 </html>
